@@ -26,8 +26,8 @@ O objeto `images` representa as fotos de gatos enviadas. Imagens que não contiv
 | `sub_id` | ID para identificação interna. | `string` | Não |
 | `created_at` | Data de upload da imagem no formato *2022-11-24T17:41:35.000Z* | `datetime` | Sim | 
 | `original_filename` | Nome do arquivo original. | `string` | Sim | 
-    "pending": 0,
-    "approved": 1
+| `pending` | Flag interna de ciclo de vida. 0=falso, 1=verdadeiro | `integer` | Não | 
+| `approved` | Flag interna de ciclo de vida. 0=falso, 1=verdadeiro | `integer` | Não | 
 | `breed_ids` | **Não implementado.** | N/A | Não | 
 
 ### POST
