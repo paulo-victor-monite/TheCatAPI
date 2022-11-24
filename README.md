@@ -33,6 +33,7 @@ O objeto `images` representa as fotos de gatos enviadas. Imagens que não contiv
 ### POST
 
 **Endpoint:** `POST /images/upload`
+
 Cria uma nova imagem no sistema carregando um arquivo .jpg ou .png válido contendo um gato.
 
 **Request body**
@@ -52,15 +53,8 @@ Cria uma nova imagem no sistema carregando um arquivo .jpg ou .png válido conte
 ### GET by ID
 
 **Endpoint: **`GET /images/{image_id}`
+
 Obtém a imagem correspondente ao parâmetro `image_id` passado como parâmetro `path`.
-
-| Nome | Descrição | Tipo | Obrigatório |
-|------|-----------|------|-------------|
-|      |           |      |             |
-|      |           |      |             |
-|      |           |      |             |
-
-**Response**
 
 ### GET
 `GET /images`
