@@ -10,6 +10,10 @@
 
 Registre-se em [https://thecatapi.com/signup](https://thecatapi.com/signup) para receber sua API key por email.
 
+## Visão geral
+
+Esse recurso funciona como um banco de dados de imagens de gatos.
+
 ## Obter todas imagens públicas
 
 Para obter uma lista de todas as imagens públicas criadas, chame `GET /images/search`.
