@@ -52,12 +52,15 @@ Cria uma nova imagem no sistema carregando um arquivo .jpg ou .png válido conte
 
 ### GET by ID
 
-**Endpoint: **`GET /images/{image_id}`
+**Endpoint:** `GET /images/{image_id}`
 
 Obtém a imagem correspondente ao parâmetro `image_id` passado como parâmetro `path`.
 
 ### GET
-`GET /images`
+
+**Endpoint:** `GET /images`
+
+Request Parameters
 
 | Nome | Descrição | Tipo | Obrigatório |
 |------|-----------|------|-------------|
@@ -68,7 +71,8 @@ Obtém a imagem correspondente ao parâmetro `image_id` passado como parâmetro 
 **Response**
 
 ### DELETE
-`DELETE /images/{image_id}`
+
+**Endpoint:** `DELETE /images/{image_id}`
 
 | Nome | Descrição | Tipo | Obrigatório |
 |------|-----------|------|-------------|
