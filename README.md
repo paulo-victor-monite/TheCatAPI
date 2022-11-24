@@ -39,6 +39,11 @@ O objeto `images` representa as fotos de gatos enviadas. Imagens que não contiv
 
 **Response**
 
+| Código | Descrição |
+|------|-----------|
+| 201 | Image was successsfully uploaded. |    
+| 400 | Image was too big, did not contain a Cat, was inappropriate, or the wrong file type. |
+
 ### GET by ID
 `GET /images/{image_id}`
 
