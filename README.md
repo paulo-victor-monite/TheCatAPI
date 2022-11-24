@@ -11,14 +11,13 @@
 
 Para obter uma lista de todas as imagens públicas criadas, chame `GET /images/search`.
 
-https://api.thecatapi.com/v1/images/search
 
-```curl
-https://api.thecatapi.com/v1/images/search
+```cURL
+curl GET 'https://api.thecatapi.com/v1/images/search'
 ```
 
 A resposta contém as informações sobre todas imagens públicas criadas:
-```
+```json
 [
     {
         "id": "Fvdx5Ja0F",
