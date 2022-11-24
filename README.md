@@ -55,13 +55,11 @@ Obtém a imagem correspondente ao parâmetro `image_id` passado como parâmetro 
 
 Obtenha todas as imagens enviadas para sua conta via '/images/upload'. Os resultados podem ser filtrados através dos parâmteros `query` abaixo:
 
-| Parâmetro |    Descrição      | Obrigatório |
-|:------------:|:--------------------:|-------------|
-| `limit`  | Integer - number of results to return. Without an API Key you can only pass 1, with a Key you can pass up to 25. Default is 1  | Sim |
-| `size`  | The size of image to return - small, med or full. small is perfect for Discord. Defaults to med  |  Não |
-| `mime_types` | Comma delimited string of the image types to return gif, jpg, orpng. Defaults to return all types jpg,gif,png.      |   Não   |
-| `format` | Response format json, orsrc. src  will redirect straight to the image, so is useful for putting a link  straight into HTML as the 'src' on an 'img' tag. Defaults to json     |  Não   |
-| `order` | The order to return results in. RANDOM, ASC or DESC. If either ASC or DESC  is passed then the Pagination headers will be on the response allowing  you to see the total amount of results, and your current page. Default  is RANDOM |  Não    |
+| Parâmetro |    Descrição      | Tipo | Obrigatório |
+|------------|--------------------|------|------------|
+| `limit`  | Número de resultados a serem retornados. O valor máximo é 25. O padrão é 1. | `integer` | Sim |
+| `mime_types` | The image types to return: `gif`, `jpg`, or `png`. Retorna todos os tipos como padrão. | `string` delimitado por vírgulas | Não |
+| `order` | The order to return results in. RANDOM, ASC or DESC. If either ASC or DESC  is passed then the Pagination headers will be on the response allowing  you to see the total amount of results, and your current page. Default  is RANDOM | `string` | Não  |
 
 ### DELETE
 
