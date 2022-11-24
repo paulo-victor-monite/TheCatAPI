@@ -18,8 +18,10 @@ O objeto `images` representa as fotos de gatos enviadas. Imagens que não contiv
 | Nome | Descrição | Tipo | Obrigatório |
 |------|-----------|------|-------------|
 | `id` | ID da imagem. | `UUID` | Sim |
-|      |           |      |             |
-|      |           |      |             |
+| `url` | URL para acessar a imagem. | `string` | Sim |
+| `width` | Largura da imagem em pixels. Automaticamente gerada. | `integer` | Sim |
+| `height` | Altura da imagem em pixels. Automaticamente gerada. | `integer` | Sim |
+| `sub_id` | ID para identificação interna. | `string` | Não |
 
 ### POST
 
