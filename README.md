@@ -9,7 +9,7 @@
 
 ## Obter a API key
 
-Registre-se em [https://thecatapi.com/signup](https://thecatapi.com/signup) para receber sua API key por email.
+Registre-se em [https://thecatapi.com/signup](https://thecatapi.com/signup) para receber sua API key por email. A API key deve ser informada no header das chamadas através da variável `x-api-key`.
 
 O path a ser utilizado nas chamadas é o [https://api.thecatapi.com/v1](https://api.thecatapi.com/v1).
 
