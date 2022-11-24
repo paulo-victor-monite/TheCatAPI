@@ -20,7 +20,7 @@ Esse é o objeto `images`.
 |      |           |      |             |
 |      |           |      |             |
 
-## POST
+### POST
 
 | Nome | Descrição | Tipo | Obrigatório |
 |------|-----------|------|-------------|
@@ -28,7 +28,7 @@ Esse é o objeto `images`.
 |      |           |      |             |
 |      |           |      |             |
 
-## GET
+### GET
 
 | Nome | Descrição | Tipo | Obrigatório |
 |------|-----------|------|-------------|
@@ -36,7 +36,7 @@ Esse é o objeto `images`.
 |      |           |      |             |
 |      |           |      |             |
 
-## DELETE
+### DELETE
 
 | Nome | Descrição | Tipo | Obrigatório |
 |------|-----------|------|-------------|
