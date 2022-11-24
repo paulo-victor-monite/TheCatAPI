@@ -70,7 +70,7 @@ Por esse endpo
 
 Parâmetros query
 
-|      Key     |    Description      | Obrigatório |
+| Parâmetro |    Descrição      | Obrigatório |
 |:------------:|:--------------------:|-------------|
 | `limit`  | Integer - number of results to return. Without an API Key you can only pass 1, with a Key you can pass up to 25. Default is 1  | Sim |
 | `size`  | The size of image to return - small, med or full. small is perfect for Discord. Defaults to med  |  Não |
