@@ -11,6 +11,8 @@
 
 Registre-se em [https://thecatapi.com/signup](https://thecatapi.com/signup) para receber sua API key por email.
 
+O path a ser utilizado nas chamadas é o [https://api.thecatapi.com/v1](https://api.thecatapi.com/v1).
+
 ## Images
 
 O objeto `images` representa as fotos de gatos enviadas. Imagens que não contiverem gatos ou forem inapropriadas são rejeitadas.
@@ -24,9 +26,11 @@ O objeto `images` representa as fotos de gatos enviadas. Imagens que não contiv
 | `sub_id` | ID para identificação interna. | `string` | Não |
 | `created_at` | Data de upload da imagem no formato *2022-11-24T17:41:35.000Z* | `datetime` | Sim | 
 | `original_filename` | Nome do arquivo original. | `string` | Sim | 
-| `breed_ids` | **Não implementado.** |  | Não | 
+| `breed_ids` | **Não implementado.** | N/A | Não | 
 
 ### POST
+post
+/images/upload
 
 | Nome | Descrição | Tipo | Obrigatório |
 |------|-----------|------|-------------|
