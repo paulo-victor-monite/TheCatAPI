@@ -39,8 +39,8 @@ O objeto `images` representa as fotos de gatos enviadas. Imagens que não contiv
 
 **Response**
 
-### GET
-`GET /images`
+### GET by ID
+`GET /images/{image_id}`
 
 | Nome | Descrição | Tipo | Obrigatório |
 |------|-----------|------|-------------|
@@ -50,8 +50,8 @@ O objeto `images` representa as fotos de gatos enviadas. Imagens que não contiv
 
 **Response**
 
-### GET by ID
-`GET /images/{image_id}`
+### GET
+`GET /images`
 
 | Nome | Descrição | Tipo | Obrigatório |
 |------|-----------|------|-------------|
