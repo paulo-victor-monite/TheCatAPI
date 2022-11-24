@@ -22,6 +22,9 @@ O objeto `images` representa as fotos de gatos enviadas. Imagens que não contiv
 | `width` | Largura da imagem em pixels. Automaticamente gerada. | `integer` | Sim |
 | `height` | Altura da imagem em pixels. Automaticamente gerada. | `integer` | Sim |
 | `sub_id` | ID para identificação interna. | `string` | Não |
+| `created_at` | Data de upload da imagem no formato *2022-11-24T17:41:35.000Z* | `datetime` | Sim | 
+| `original_filename` | Nome do arquivo original. | `string` | Sim | 
+| `breed_ids` | **Não implementado.** |  | Não | 
 
 ### POST
 
