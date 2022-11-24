@@ -58,8 +58,8 @@ Obtenha todas as imagens enviadas para sua conta via '/images/upload'. Os result
 | Parâmetro |    Descrição      | Tipo | Obrigatório |
 |------------|--------------------|------|------------|
 | `limit`  | Número de resultados a serem retornados. O valor máximo é 25. O padrão é 1. | `integer` | Sim |
-| `mime_types` | The image types to return: `gif`, `jpg`, or `png`. Retorna todos os tipos como padrão. | `string` delimitado por vírgulas | Não |
-| `order` | The order to return results in. RANDOM, ASC or DESC. If either ASC or DESC  is passed then the Pagination headers will be on the response allowing  you to see the total amount of results, and your current page. Default  is RANDOM | `string` | Não  |
+| `mime_types` | Os tipos de imagem a serem retornados: `gif`, `jpg`, or `png`. Retorna todos os tipos como padrão. | `string` delimitado por vírgulas. | Não |
+| `order` | A ordem de retorno: RANDOM, ASC ou DESC. O padrão é RANDOM. | `string` | Não  |
 
 ### DELETE
 
