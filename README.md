@@ -31,11 +31,12 @@ O objeto `images` representa as fotos de gatos enviadas. Imagens que não contiv
 ### POST
 `POST /images/upload`
 
+**Request body**
+
 | Nome | Descrição | Tipo | Obrigatório |
 |------|-----------|------|-------------|
-| file |           |      |             |
-|      |           |      |             |
-|      |           |      |             |
+| `file` | Arquivo em PNG or JPG. | `file` | Sim |
+| `sub_id` | ID para identificação interna. | `string` | Não |
 
 **Response**
 
