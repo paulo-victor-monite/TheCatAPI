@@ -34,13 +34,13 @@ O objeto `images` representa as fotos de gatos enviadas. Imagens que não contiv
 
 **Endpoint:** `POST /images/upload`
 
-Cria uma nova imagem no sistema carregando um arquivo .jpg ou .png válido contendo um gato.
+Cria uma nova imagem no sistema carregando um arquivo .gif, .jpg, ou .png válido contendo um gato.
 
 **Request body**
 
 | Nome | Descrição | Tipo | Obrigatório |
 |------|-----------|------|-------------|
-| `file` | Arquivo em .png or .jpg | `file` | Sim |
+| `file` | Arquivo em .gif, .png or .jpg | `file` | Sim |
 | `sub_id` | ID para identificação interna. | `string` | Não |
 
 ### GET by ID
