@@ -68,7 +68,7 @@ Por esse endpo
      filtre as imagens para retornar apenas aquelas enviadas por um de seus usuários usando o parâmetro 'sub_id'.
      veja se uma imagem já existe antes de fazer o upload usando o parâmetro 'original_filename' para procurar uma correspondência.
 
-Parâmetros query
+**Parâmetros query**:
 
 | Parâmetro |    Descrição      | Obrigatório |
 |:------------:|:--------------------:|-------------|
@@ -79,7 +79,15 @@ Parâmetros query
 | `order` | The order to return results in. RANDOM, ASC or DESC. If either ASC or DESC  is passed then the Pagination headers will be on the response allowing  you to see the total amount of results, and your current page. Default  is RANDOM |  Não    |
 | `page` | Integer - used for Paginating through all the results. Only used when order is ASC or DESC        |   Não  |
 
-**Response**
+**Paginação**
+
+If order=ASC or order=DESC is passed, then the response will contain these values as Headers.
+
+|    Parâmetro     |                         Descrição                  | Tipo |
+|:----------------:|:--------------------------------------------------:|---|
+| `Pagination-Count` | The total amount of results matching your search | `integer` |
+| `Pagination-Page`  | The current page                                 | `integer` |
+| `Pagination-Limit` | Amount of results being returned per page        | `integer` |
 
 ### DELETE
 
