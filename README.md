@@ -11,13 +11,13 @@
 
 Registre-se em [https://thecatapi.com/signup](https://thecatapi.com/signup) para receber sua API key por email.
 
-## Objeto
+## Images
 
-Esse é o objeto `images`:
+O objeto `images` representa as fotos de gatos enviadas. Imagens que não contiverem gatos ou forem inapropriadas são rejeitadas.
 
 | Nome | Descrição | Tipo | Obrigatório |
 |------|-----------|------|-------------|
-|      |           |      |             |
+| file |           |      |             |
 |      |           |      |             |
 |      |           |      |             |
 
