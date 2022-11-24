@@ -60,13 +60,24 @@ Obtém a imagem correspondente ao parâmetro `image_id` passado como parâmetro 
 
 **Endpoint:** `GET /images`
 
-Request Parameters
+Obtenha todas as imagens enviadas para sua conta via '/images/upload'.
 
-| Nome | Descrição | Tipo | Obrigatório |
-|------|-----------|------|-------------|
-|      |           |      |             |
-|      |           |      |             |
-|      |           |      |             |
+Por esse endpo
+
+     Liste suas imagens, uma paginação através delas usando o parâmetro ‘page’ e o cabeçalho de resposta ‘pagination-count’
+     filtre as imagens para retornar apenas aquelas enviadas por um de seus usuários usando o parâmetro 'sub_id'.
+     veja se uma imagem já existe antes de fazer o upload usando o parâmetro 'original_filename' para procurar uma correspondência.
+
+Parâmetros query
+
+|      Key     | Required |                                                                                                              Description                                                                                                              | Obrigatório |
+|:------------:|:--------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|-------------|
+| `limit`        | optional | Integer - number of results to return. Without an API Key you can only pass 1, with a Key you can pass up to 25. Default is 1                                                                                                         |             |
+| `size`         | optional | The size of image to return - small, med or full. small is perfect for Discord. Defaults to med                                                                                                                                       |             |
+| `mime_types`   | optional | Comma delimited string of the image types to return gif, jpg, orpng. Defaults to return all types jpg,gif,png.                                                                                                                        |             |
+| `format`       | optional | Response format json, orsrc. src  will redirect straight to the image, so is useful for putting a link  straight into HTML as the 'src' on an 'img' tag. Defaults to json                                                             |             |
+| `order`        | optional | The order to return results in. RANDOM, ASC or DESC. If either ASC or DESC  is passed then the Pagination headers will be on the response allowing  you to see the total amount of results, and your current page. Default  is RANDOM |             |
+| `page`         | optional | Integer - used for Paginating through all the results. Only used when order is ASC or DESC                                                                                                                                            |             |
 
 **Response**
 
