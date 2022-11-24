@@ -1,10 +1,9 @@
 # TheCatAPI
 
 >
-> Decolando em TW
+> Decolando em TW. Como suporte, consulte a [coleção do Postman](https://www.postman.com/winter-shuttle-98074/workspace/thecatapi/collection/22116190-45a163ae-36c7-4fbc-add6-eae0011333c5?action=share&creator=22116190).
 >
 
-[https://docs.thecatapi.com/](https://docs.thecatapi.com/)
 
 ## Obter a API key
 
