@@ -60,9 +60,7 @@ Obtém a imagem correspondente ao parâmetro `image_id` passado como parâmetro 
 
 **Endpoint:** `GET /images`
 
-Obtenha todas as imagens enviadas para sua conta via '/images/upload'. Os resultados podem ser filtrados através dos parâmteros abaixo:
-
-**Parâmetros query**:
+Obtenha todas as imagens enviadas para sua conta via '/images/upload'. Os resultados podem ser filtrados através dos parâmteros `query` abaixo:
 
 | Parâmetro |    Descrição      | Obrigatório |
 |:------------:|:--------------------:|-------------|
