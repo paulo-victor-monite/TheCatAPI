@@ -60,13 +60,7 @@ Obtém a imagem correspondente ao parâmetro `image_id` passado como parâmetro 
 
 **Endpoint:** `GET /images`
 
-Obtenha todas as imagens enviadas para sua conta via '/images/upload'.
-
-Por esse endpo
-
-     Liste suas imagens, uma paginação através delas usando o parâmetro ‘page’ e o cabeçalho de resposta ‘pagination-count’
-     filtre as imagens para retornar apenas aquelas enviadas por um de seus usuários usando o parâmetro 'sub_id'.
-     veja se uma imagem já existe antes de fazer o upload usando o parâmetro 'original_filename' para procurar uma correspondência.
+Obtenha todas as imagens enviadas para sua conta via '/images/upload'. Os resultados podem ser filtrados através dos parâmteros abaixo:
 
 **Parâmetros query**:
 
@@ -77,17 +71,6 @@ Por esse endpo
 | `mime_types` | Comma delimited string of the image types to return gif, jpg, orpng. Defaults to return all types jpg,gif,png.      |   Não   |
 | `format` | Response format json, orsrc. src  will redirect straight to the image, so is useful for putting a link  straight into HTML as the 'src' on an 'img' tag. Defaults to json     |  Não   |
 | `order` | The order to return results in. RANDOM, ASC or DESC. If either ASC or DESC  is passed then the Pagination headers will be on the response allowing  you to see the total amount of results, and your current page. Default  is RANDOM |  Não    |
-| `page` | Integer - used for Paginating through all the results. Only used when order is ASC or DESC        |   Não  |
-
-**Paginação**
-
-If order=ASC or order=DESC is passed, then the response will contain these values as Headers.
-
-|    Parâmetro     |                         Descrição                  | Tipo |
-|:----------------:|:--------------------------------------------------:|---|
-| `Pagination-Count` | The total amount of results matching your search | `integer` |
-| `Pagination-Page`  | The current page                                 | `integer` |
-| `Pagination-Limit` | Amount of results being returned per page        | `integer` |
 
 ### DELETE
 
