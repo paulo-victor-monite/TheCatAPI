@@ -37,18 +37,37 @@ O objeto `images` representa as fotos de gatos enviadas. Imagens que não contiv
 |      |           |      |             |
 |      |           |      |             |
 
+**Response**
+
 ### GET
+`GET /images`
 
 | Nome | Descrição | Tipo | Obrigatório |
 |------|-----------|------|-------------|
 |      |           |      |             |
 |      |           |      |             |
 |      |           |      |             |
+
+**Response**
+
+### GET by ID
+`GET /images/{image_id}`
+
+| Nome | Descrição | Tipo | Obrigatório |
+|------|-----------|------|-------------|
+|      |           |      |             |
+|      |           |      |             |
+|      |           |      |             |
+
+**Response**
 
 ### DELETE
+`DELETE /images/{image_id}`
 
 | Nome | Descrição | Tipo | Obrigatório |
 |------|-----------|------|-------------|
 |      |           |      |             |
 |      |           |      |             |
 |      |           |      |             |
+
+**Response**
