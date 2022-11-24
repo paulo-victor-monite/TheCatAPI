@@ -26,10 +26,14 @@ O objeto `images` representa as fotos de gatos enviadas. Imagens que não contiv
 | `sub_id` | ID para identificação interna. | `string` | Não |
 | `created_at` | Data de upload da imagem no formato *2022-11-24T17:41:35.000Z* | `datetime` | Sim | 
 | `original_filename` | Nome do arquivo original. | `string` | Sim | 
+    "pending": 0,
+    "approved": 1
 | `breed_ids` | **Não implementado.** | N/A | Não | 
 
 ### POST
-`POST /images/upload`
+
+**Endpoint:** `POST /images/upload`
+Cria uma nova imagem no sistema carregando um arquivo .jpg ou .png válido contendo um gato.
 
 **Request body**
 
@@ -46,7 +50,9 @@ O objeto `images` representa as fotos de gatos enviadas. Imagens que não contiv
 | 400 | Image was too big, did not contain a Cat, was inappropriate, or the wrong file type. |
 
 ### GET by ID
-`GET /images/{image_id}`
+
+**Endpoint: **`GET /images/{image_id}`
+Obtém a imagem correspondente ao parâmetro `image_id` passado como parâmetro `path`.
 
 | Nome | Descrição | Tipo | Obrigatório |
 |------|-----------|------|-------------|
