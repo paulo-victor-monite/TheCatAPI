@@ -70,14 +70,14 @@ Por esse endpo
 
 Parâmetros query
 
-|      Key     | Required |                                                                                                              Description                                                                                                              | Obrigatório |
-|:------------:|:--------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|-------------|
-| `limit`        | optional | Integer - number of results to return. Without an API Key you can only pass 1, with a Key you can pass up to 25. Default is 1                                                                                                         |             |
-| `size`         | optional | The size of image to return - small, med or full. small is perfect for Discord. Defaults to med                                                                                                                                       |             |
-| `mime_types`   | optional | Comma delimited string of the image types to return gif, jpg, orpng. Defaults to return all types jpg,gif,png.                                                                                                                        |             |
-| `format`       | optional | Response format json, orsrc. src  will redirect straight to the image, so is useful for putting a link  straight into HTML as the 'src' on an 'img' tag. Defaults to json                                                             |             |
-| `order`        | optional | The order to return results in. RANDOM, ASC or DESC. If either ASC or DESC  is passed then the Pagination headers will be on the response allowing  you to see the total amount of results, and your current page. Default  is RANDOM |             |
-| `page`         | optional | Integer - used for Paginating through all the results. Only used when order is ASC or DESC                                                                                                                                            |             |
+|      Key     |    Description      | Obrigatório |
+|:------------:|:--------------------:|-------------|
+| `limit`  | Integer - number of results to return. Without an API Key you can only pass 1, with a Key you can pass up to 25. Default is 1  | Sim |
+| `size`  | The size of image to return - small, med or full. small is perfect for Discord. Defaults to med  |  Não |
+| `mime_types` | Comma delimited string of the image types to return gif, jpg, orpng. Defaults to return all types jpg,gif,png.      |   Não   |
+| `format` | Response format json, orsrc. src  will redirect straight to the image, so is useful for putting a link  straight into HTML as the 'src' on an 'img' tag. Defaults to json     |  Não   |
+| `order` | The order to return results in. RANDOM, ASC or DESC. If either ASC or DESC  is passed then the Pagination headers will be on the response allowing  you to see the total amount of results, and your current page. Default  is RANDOM |  Não    |
+| `page` | Integer - used for Paginating through all the results. Only used when order is ASC or DESC        |   Não  |
 
 **Response**
 
