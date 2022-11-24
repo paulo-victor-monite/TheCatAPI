@@ -17,7 +17,7 @@ O objeto `images` representa as fotos de gatos enviadas. Imagens que não contiv
 
 | Nome | Descrição | Tipo | Obrigatório |
 |------|-----------|------|-------------|
-| file |           |      |             |
+| `id` | ID da imagem. | `UUID` | Sim |
 |      |           |      |             |
 |      |           |      |             |
 
@@ -25,7 +25,7 @@ O objeto `images` representa as fotos de gatos enviadas. Imagens que não contiv
 
 | Nome | Descrição | Tipo | Obrigatório |
 |------|-----------|------|-------------|
-|      |           |      |             |
+| file |           |      |             |
 |      |           |      |             |
 |      |           |      |             |
 
