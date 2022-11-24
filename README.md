@@ -43,13 +43,6 @@ Cria uma nova imagem no sistema carregando um arquivo .jpg ou .png válido conte
 | `file` | Arquivo em PNG or JPG. | `file` | Sim |
 | `sub_id` | ID para identificação interna. | `string` | Não |
 
-**Response**
-
-| Código | Descrição |
-|------|-----------|
-| 201 | Image was successsfully uploaded. |    
-| 400 | Image was too big, did not contain a Cat, was inappropriate, or the wrong file type. |
-
 ### GET by ID
 
 **Endpoint:** `GET /images/{image_id}`
@@ -74,12 +67,4 @@ Obtenha todas as imagens enviadas para sua conta via '/images/upload'. Os result
 
 **Endpoint:** `DELETE /images/{image_id}`
 
-Exclui a imagem correspondente ao parâmetro `image_id` passado como parâmetr `path`.
-
-| Nome | Descrição | Tipo | Obrigatório |
-|------|-----------|------|-------------|
-|      |           |      |             |
-|      |           |      |             |
-|      |           |      |             |
-
-**Response**
+Exclui a imagem correspondente ao parâmetro `image_id` passado como parâmetro `path`.
