@@ -29,8 +29,7 @@ O objeto `images` representa as fotos de gatos enviadas. Imagens que não contiv
 | `breed_ids` | **Não implementado.** | N/A | Não | 
 
 ### POST
-post
-/images/upload
+`POST /images/upload`
 
 | Nome | Descrição | Tipo | Obrigatório |
 |------|-----------|------|-------------|
