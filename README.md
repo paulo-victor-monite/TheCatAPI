@@ -40,7 +40,7 @@ Cria uma nova imagem no sistema carregando um arquivo .jpg ou .png válido conte
 
 | Nome | Descrição | Tipo | Obrigatório |
 |------|-----------|------|-------------|
-| `file` | Arquivo em PNG or JPG. | `file` | Sim |
+| `file` | Arquivo em .png or .jpg | `file` | Sim |
 | `sub_id` | ID para identificação interna. | `string` | Não |
 
 ### GET by ID
@@ -53,12 +53,12 @@ Obtém a imagem correspondente ao parâmetro `image_id` passado como parâmetro 
 
 **Endpoint:** `GET /images`
 
-Obtenha todas as imagens enviadas para sua conta via '/images/upload'. Os resultados podem ser filtrados através dos parâmteros `query` abaixo:
+Obtenha todas as imagens enviadas para sua conta via `/images/upload`. Os resultados podem ser filtrados através dos parâmteros `query` abaixo:
 
 | Parâmetro |    Descrição      | Tipo | Obrigatório |
 |------------|--------------------|------|------------|
 | `limit`  | Número de resultados a serem retornados. O valor máximo é 25. O padrão é 1. | `integer` | Sim |
-| `mime_types` | Os tipos de imagem a serem retornados: `gif`, `jpg`, or `png`. Retorna todos os tipos como padrão. | `string` delimitado por vírgulas. | Não |
+| `mime_types` | Os tipos de imagem a serem retornados: .gif, .jpg, or .png. Retorna todos os tipos como padrão. | `string` delimitado por vírgulas. | Não |
 | `order` | A ordem de retorno: RANDOM, ASC ou DESC. O padrão é RANDOM. | `string` | Não  |
 
 ### DELETE
