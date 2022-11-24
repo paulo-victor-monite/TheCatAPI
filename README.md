@@ -74,6 +74,8 @@ Obtenha todas as imagens enviadas para sua conta via '/images/upload'. Os result
 
 **Endpoint:** `DELETE /images/{image_id}`
 
+Exclui a imagem correspondente ao parâmetro `image_id` passado como parâmetr `path`.
+
 | Nome | Descrição | Tipo | Obrigatório |
 |------|-----------|------|-------------|
 |      |           |      |             |
