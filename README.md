@@ -2,8 +2,6 @@
 
 >
 > The Cat API é uma API pública de gerenciamento de informações e imagens de gatos que usaremos no nosso curso **Decolando em TW**.
-> 
-> Para observar a API em funcionamento, consulte a [coleção do Postman](https://www.postman.com/winter-shuttle-98074/workspace/thecatapi/collection/22116190-45a163ae-36c7-4fbc-add6-eae0011333c5?action=share&creator=22116190).
 >
 
 
@@ -12,6 +10,7 @@
 - Registre-se em [https://thecatapi.com/signup](https://thecatapi.com/signup) para receber sua API key por email.
 - A API key deve ser informada no header das chamadas através da variável `x-api-key`.
 - O path a ser utilizado nas chamadas é o [https://api.thecatapi.com/v1](https://api.thecatapi.com/v1).
+- A API em funcionamento pode ser observada através da [coleção do Postman](https://www.postman.com/winter-shuttle-98074/workspace/thecatapi/collection/22116190-45a163ae-36c7-4fbc-add6-eae0011333c5?action=share&creator=22116190).
 
 ## Images
 
